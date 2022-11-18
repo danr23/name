@@ -1,0 +1,36 @@
+.main{
+border: inset red 10px;
+border-radius: 25px;
+background:-moz-linear-gradient(right, black, #8a0102);
+color: #fccfcc;
+box-shadow: 0 0 0 5px #cc0000,
+0 0 0 10px #ff0f00;
+}
+.delete{
+border: outset #14ffcc 5px;
+border-radius: 30px;
+background:-moz-linear-gradient(top, #09ffac, #03999c);
+color: hsl(0%, 0%, 50%);
+}
+.delete:hover{
+border: inset #14ffcc 5px;
+border-radius: 30px;
+background:-moz-linear-gradient(top, #09ffac, #03999c);
+color: hsl(0%, 0%, 50%);
+}
+.delete:active{
+border: solid #14ffcc 5px;
+border-radius: 30px;
+background:-moz-linear-gradient(top, #09ffac, #03999c);
+color: hsl(0%, 0%, 50%);
+}
+.command{
+border: inset yellow 5px;
+border-radius: 25px;
+background:-moz-linear-gradient(top, #cfcf00, #fcec09);
+}
+.command:active{
+border: outset yellow 5px;
+border-radius: 25px;
+background:-moz-linear-gradient(top, #cfcf00, #fcec09);
+}
